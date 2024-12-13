@@ -6,8 +6,6 @@ Este proyecto utiliza la API de Google Cloud Text-to-Speech para convertir texto
 
 Integrar la tecnología de Google Cloud para convertir texto escrito en voz natural, facilitando la creación de interfaces interactivas y aplicaciones de accesibilidad.
 
----
-
 ## 🔧 Requisitos
 
 - `google-cloud-texttospeech`: Interactuar con la API.
