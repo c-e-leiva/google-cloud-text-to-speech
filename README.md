@@ -13,7 +13,7 @@ Integrar la tecnología de Google Cloud para convertir texto escrito en voz natu
 - `google-cloud-texttospeech`: Interactuar con la API.
 - `playsound`: Reproducir el archivo de audio.
 
-Instala las dependencias:
+Instalar las dependencias:
 ```
 pip install google-cloud-texttospeech playsound
 ```
@@ -33,7 +33,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "ruta/a/tu/credencial.json"
 ```
 
 ## 🗣️ Listar Voces Disponibles
-Puedes obtener una lista de todas las voces disponibles para la conversión de texto a voz en español. Esto te permitirá elegir una voz adecuada para tu proyecto.
+Se Puede obtener una lista de todas las voces disponibles para la conversión de texto a voz en español. Esto permite elegir una voz adecuada para el proyecto.
 
 ## 🔊 Sintetizar y Reproducir
-Este proyecto convierte cualquier texto escrito en voz utilizando la API de Google Cloud. Puedes elegir la voz que prefieras, configurar la velocidad y el tono de la voz, y generar un archivo de audio con la salida. Luego, se reproduce el audio generado de forma automática.
+Este proyecto utiliza la API de Google Cloud para transformar texto escrito en voz de manera eficiente. Permite seleccionar la voz deseada, ajustar la velocidad y el tono según las necesidades, y generar un archivo de audio con el resultado. Finalmente, el audio se reproduce automáticamente, proporcionando una experiencia fluida y personalizada.
